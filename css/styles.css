@@ -1,9 +1,9 @@
 body {
   text-align: center;
+  font-family: 'ZCOOL XiaoWei', serif;
 }
 
 h1 {
-  font-family: Monoton;
   font-size: 70px;
   margin: 0.2em;
 }
