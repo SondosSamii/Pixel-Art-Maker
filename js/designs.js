@@ -34,7 +34,7 @@ function makeGrid() {
 
     for (let i = 0; i < rows; i++) {
         let row = document.createElement('tr');
-        for (let i = 0; i < cols; i++) {
+        for (let j = 0; j < cols; j++) {
             let cell = document.createElement('td');
             row.appendChild(cell);
             cell.addEventListener('click', cellOnClick)
